@@ -1,0 +1,16 @@
+<form class="form-horizontal">
+    <div class="control-group">
+        <label class="control-label">{{ _('API Key') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.tailscale.api_key">
+        </div>
+        <label class="control-label">{{ _('Base URL') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.tailscale.base_url">
+        </div>
+        <label class="control-label">{{ _('Tailnet') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.tailscale.tailnet">
+        </div>
+    </div>
+</form>%       
